@@ -1,3 +1,7 @@
+//
+// Here! All the code have been done using ChatGPT! (js only)
+//
+
 // JavaScript for dynamic 3D effect on text based on mouse movement
 const cards = document.querySelectorAll('.genre-card');
 
