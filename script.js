@@ -1,7 +1,3 @@
-//
-// Here! All the code have been done using ChatGPT! (js only)
-//
-
 // JavaScript for dynamic 3D effect on text based on mouse movement
 const cards = document.querySelectorAll('.genre-card');
 
@@ -49,7 +45,7 @@ function getRandomColor() {
 // Set the random color to the CSS variable --default-color
 function switchColor() {
   const randomColor = getRandomColor();
-  document.documentElement.style.setProperty('--default-color', randomColor);
+  document.documentElement.style.setProperty('--highlight-color', randomColor);
 }
 
 // Call the function when the page loads
